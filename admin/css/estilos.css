@@ -1,0 +1,22 @@
+/*body {
+	text-transform: uppercase;
+}*/
+
+header, main, footer {
+      padding-left: 300px;
+    }
+
+.button-collapse {
+	display: none;
+}
+
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+.button-collapse {
+	display: inherit;
+}
